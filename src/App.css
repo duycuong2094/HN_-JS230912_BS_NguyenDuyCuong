@@ -25,12 +25,18 @@ body{
   background: linear-gradient(to right, rgb(254, 187, 133), rgb(243, 92, 92));
 border-radius: 5%;
   padding-top: 2%;
-  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px 0px rgba(254, 1, 1, 0.5);
 
 }
 textarea{
   width: 50%;
   height: 200px;
+  box-shadow: 5px 5px 10px 0px rgba(249, 1, 1, 0.5);
+
+}
+textarea:focus{
+outline: none;  
+border: none;
 }
 button{
   width: 40%;
@@ -38,7 +44,8 @@ button{
   border: none;
   background: linear-gradient(to right, rgb(254, 206, 133), rgb(243, 92, 97));
 border-radius: 10px;
-box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+box-shadow: 5px 5px 10px 0px rgba(249, 1, 1, 0.5);
+font-weight: bold;
 
 }
 button:hover{
